@@ -18,6 +18,6 @@ with open("./reports/"+now_time +".html", "wb") as f:
     runner.run(suit)
 
  # 发送邮件
-    time.sleep(5)  # 设置睡眠时间，等待测试报告生成完毕
-    email = sendEmail.SendEmail()
-    email.sendReport()  
+    # time.sleep(5)  # 设置睡眠时间，等待测试报告生成完毕
+    # email = sendEmail.SendEmail()
+    # email.sendReport()  

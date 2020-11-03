@@ -1,8 +1,15 @@
-{
-    "header":{
-        "Content-Type":"application/json;charset=UTF-8",
-        "Admin-Token":"{}".format(login_info())
+[
+    {
+        "name":"success",
+        "data":{
+            "page":1,"limit":15,"search":"","type":4
+        },
+        "response":{
+            "code": 0,"msg":"success"
+        }
+
     }
+]
+        
 
 
-}
